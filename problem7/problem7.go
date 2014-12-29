@@ -28,7 +28,7 @@ func main() {
 	What is the 10001st prime number?
 	*/
 
-	fmt.Println("The solution to Euler Problem 6 is: ")
+	fmt.Println("The solution to Euler Problem 7 is: ")
 	sliceOfPrimes := makeBoundedListOfPrimes(10001)
 	fmt.Println(sliceOfPrimes[len(sliceOfPrimes)-1])
 }
